@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+.cars{
+    display: inline-block;
+    margin-right: 30px;
+    font-family: 'Combo', cursive;
+}
+.carNum{
+    margin-left: 9px;
+}
+.gameZone{
+    border: 5px solid grey;
+    width: 80vw;
+    height: 60vh;
+    border-radius: 9px;
+    position: absolute;
+    left: 10vw;
+    top: 10vh;
+}
+
+.mainCarDiv{
+    position: absolute;
+    top: 83%;
+    left: 18%;
+}
+
+.selectText{
+    position: absolute;
+    left: 9vw;
+    top: 75vh;
+    font-family: 'Combo', cursive;
+    font-size: 27px;
+}
+.dashed1{
+    position: relative;
+    border-bottom: 5px dashed black;
+    top: 18vh;
+}
+.dashed2{
+    position: relative;
+    border-bottom: 5px dashed black;
+    top: 40vh;
+}
+.track1{
+    position: absolute;
+    top: 15vh;
+    left: 3vw;
+    font-family: 'Combo', cursive;
+    font-size: 27px;
+}
+.track2{
+    position: absolute;
+    top: 36vh;
+    left: 3vw;
+    font-family: 'Combo', cursive;
+    font-size: 27px;
+}
+.track3{
+    position: absolute;
+    top: 54vh;
+    left: 3vw;
+    font-family: 'Combo', cursive;
+    font-size: 27px;
+}
+.trackDiv1{
+    position: absolute;
+    top: 18vh;
+    left: 11vw;
+}
+.trackDiv2{
+    position: absolute;
+    top: 42vh;
+    left: 11vw;
+}
+.trackDiv3{
+    position: absolute;
+    top: 59vh;
+    left: 11vw;
+}
+
+.gameCars{
+    position: relative;
+}
+
+.gameControlsInner{
+    position: absolute;
+    right: 21vw;
+    top: 71vh;
+    font-family: 'Combo', cursive;
+    font-size: 27px;
+}
+
+.startButton{
+    position: absolute;
+    top: 77%;
+    right: 18vw;
+}
+
+.resetButton{
+    position: absolute;
+    top: 77%;
+    right: 11vw;
+}
+
+.wonTheGame1{
+    position: absolute;
+    right: 5vw;
+    top: 15vh;
+    width: 5vw;
+}
+.wonTheGame2{
+    position: absolute;
+    right: 5vw;
+    top: 38vh;
+    width: 5vw;
+}
+.wonTheGame3{
+    position: absolute;
+    right: 5vw;
+    top: 55vh;
+    width: 5vw;
+}
+
+.resultsInner{
+    position: absolute;
+    right: 22vw;
+    top: 83vh;
+    font-family: 'Combo', cursive;
+    font-size: 27px;
+}
+.resultCar1{
+    position: absolute;
+    bottom: 4vh;
+    right: 19vw;
+}
+.resultCar2{
+    position: absolute;
+    bottom: 4vh;
+    right: 19vw;
+}
+.resultCar3{
+    position: absolute;
+    bottom: 4vh;
+    right: 19vw;
+}
+.resultCar4{
+    position: absolute;
+    bottom: 4vh;
+    right: 19vw;
+}
+.resultCar5{
+    position: absolute;
+    bottom: 4vh;
+    right: 19vw;
+}
+.resultCar6{
+    position: absolute;
+    bottom: 4vh;
+    right: 19vw;
+}
+#finalResults123{
+    font-family: 'Combo', cursive;
+    font-size: 21px;
+    position: absolute;
+    bottom: 0.3vh;
+    right: 14vw;
+}
+#speed{
+    font-family: 'Combo', cursive;
+    font-size: 21px;
+    position: absolute;
+    bottom: 7vh;
+    right: 3vw;
+}
+

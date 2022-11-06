@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="trackDiv1">
+        <img class="car1Selected1 gameCars" src="images/car1.png" alt="Car">
+        <img class="car2Selected1 gameCars" src="images/car2.png" alt="Car">
+        <img class="car3Selected1 gameCars" src="images/car3.png" alt="Car">
+        <img class="car4Selected1 gameCars" src="images/car4.png" alt="Car">
+        <img class="car5Selected1 gameCars" src="images/car5.png" alt="Car">
+        <img class="car6Selected1 gameCars" src="images/car6.png" alt="Car">
+    </div>
+    <div class="trackDiv2">
+        <img class="car1Selected2 gameCars" src="images/car1.png" alt="Car">
+        <img class="car2Selected2 gameCars" src="images/car2.png" alt="Car">
+        <img class="car3Selected2 gameCars" src="images/car3.png" alt="Car">
+        <img class="car4Selected2 gameCars" src="images/car4.png" alt="Car">
+        <img class="car5Selected2 gameCars" src="images/car5.png" alt="Car">
+        <img class="car6Selected2 gameCars" src="images/car6.png" alt="Car">
+    </div>
+    <div class="trackDiv3">
+        <img class="car1Selected3 gameCars" src="images/car1.png" alt="Car">
+        <img class="car2Selected3 gameCars" src="images/car2.png" alt="Car">
+        <img class="car3Selected3 gameCars" src="images/car3.png" alt="Car">
+        <img class="car4Selected3 gameCars" src="images/car4.png" alt="Car">
+        <img class="car5Selected3 gameCars" src="images/car5.png" alt="Car">
+        <img class="car6Selected3 gameCars" src="images/car6.png" alt="Car">
+    </div>
+    
+    <div class="gameZone">
+        <div class="dashed1"></div>
+        <div class="dashed2"></div>
+    </div>
+    <p class="track1">Track 1</p>
+    <p class="track2">Track 2</p>
+    <p class="track3">Track 3</p>
+
+    <p class="cars selectText"> Select the cars :</p>
+    <div class="mainCarDiv">
+        <div class="car1 cars" >
+            <a href="#" onclick="car1Select()"><img class="car1Selected" src="images/car1.png" alt="Car"></a>
+            <p class="carNum">Car1</p>
+        </div>
+        <div class="car2 cars">
+            <a href="#" onclick="car2Select()"><img class="car2Selected" src="images/car2.png" alt="Car"></a>
+            <p class="carNum">Car2</p>
+        </div>
+        <div class="car3 cars">
+            <a href="#" onclick="car3Select()"><img class="car3Selected" src="images/car3.png" alt="Car"></a>
+            <p class="carNum">Car3</p>
+        </div>
+        <div class="car4 cars">
+            <a href="#" onclick="car4Select()"><img class="car4Selected" src="images/car4.png" alt="Car"></a>
+            <p class="carNum">Car4</p>
+        </div>
+        <div class="car5 cars">
+            <a href="#" onclick="car5Select()"><img class="car5Selected" src="images/car5.png" alt="Car"></a>
+            <p class="carNum">Car5</p>
+        </div>
+        <div class="car6 cars">
+            <a href="#" onclick="car6Select()"><img class="car6Selected" src="images/car6.png" alt="Car"></a>
+            <p class="carNum">Car6</p>
+        </div>
+    </div>
+
+    <div class="gameControls">
+        <p class="gameControlsInner"> Game Controls :</p>
+        <button type="button" class="btn btn-outline-primary startButton" onclick="startTheGame()">Start</button>
+        <button type="button" class="btn btn-outline-warning resetButton" onclick="location.reload()">Reset</button>
+    </div>
+
+    <div class="winthegame">
+        <img src="images/win.png" alt="Win Logo" class="wonTheGame1">
+        <img src="images/win.png" alt="Win Logo" class="wonTheGame2">
+        <img src="images/win.png" alt="Win Logo" class="wonTheGame3">
+    </div>
+
+    <div class="results">
+        <p class="resultsInner"> Game Results :</p>
+        <div id="finalResults123"></div>
+        <div id="speed"></div>
+    </div>
+
+    <div class="imgResults">
+        <img class="resultCar1" src="images/car1.png" alt="Car">
+        <img class="resultCar2" src="images/car2.png" alt="Car">
+        <img class="resultCar3" src="images/car3.png" alt="Car">
+        <img class="resultCar4" src="images/car4.png" alt="Car">
+        <img class="resultCar5" src="images/car5.png" alt="Car">
+        <img class="resultCar6" src="images/car6.png" alt="Car">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</body>
+</html>
